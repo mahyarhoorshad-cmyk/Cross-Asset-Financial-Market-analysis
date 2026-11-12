@@ -2,8 +2,6 @@
 
 پروژه پایان دوره Data Analyst با موضوع بررسی رابطه بین **S&P 500، Gold، WTI Oil، DXY و VIX**.
 
-## چرا این نسخه اصلاح شد؟
-فایل خام S&P ساختار چندبلوک دارد: 503 ticker برای هر یک از `Close / High / Low / Open / Volume`. در نسخه نهایی، فقط بلوک `Close` برای محاسبه بازده استفاده می‌شود تا متغیرهای مختلف با هم قاطی نشوند.
 
 ## ساختار
 - `notebooks/01_Prepare_SP500.ipynb`: استخراج، پاک‌سازی، کنترل کیفیت و ساخت proxy از دیتاست اصلی.
@@ -27,6 +25,4 @@ pip install -r requirements.txt
 jupyter notebook notebooks/01_Prepare_SP500.ipynb
 jupyter notebook notebooks/02_Cross_Asset_EDA.ipynb
 ```
-
-## GitHub
-فایل خام 162MB است و بهتر است مستقیماً در Git معمولی commit نشود؛ اگر لازم است در repository نگه داشته شود از Git LFS استفاده کنید.
+ 
