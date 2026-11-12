@@ -1,0 +1,1 @@
+The original SnP_daily_update.csv is the uploaded project dataset. It is intentionally not duplicated here because it is ~162 MB. Put it in this folder to run Notebook 01. The compact proxy and quality report are already included.

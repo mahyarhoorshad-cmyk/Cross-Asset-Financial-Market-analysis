@@ -1,0 +1,9 @@
+metric,value
+raw_rows,4236
+raw_columns,2516
+close_tickers,503
+selected_coverage_ge_80,445
+date_min,2010-01-04
+date_max,2026-10-30
+duplicate_dates,0
+nonpositive_close_values,0
